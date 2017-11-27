@@ -1,7 +1,9 @@
- server:
-  port: 9090
-  tomcat:
-    uri-encoding: UTF-8
+ server.port: 9091
+ server.ssl.key-store: classpath:keystore.p12
+ server.ssl.key-store-password: 123456
+ server.ssl.keyStoreType: PKCS12
+ server.ssl.keyAlias: tomcat 
+
 
  ### sqlite需要自己配置连接方式
  jpa:
