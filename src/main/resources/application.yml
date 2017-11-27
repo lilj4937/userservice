@@ -1,0 +1,13 @@
+ server:
+  port: 9090
+  tomcat:
+    uri-encoding: UTF-8
+
+ ### sqlite需要自己配置连接方式
+ jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+ logging:
+  level:
+    ROOT: INFO
